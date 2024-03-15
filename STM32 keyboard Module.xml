@@ -1,0 +1,1576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\Projects\DIY\Keyboard\STM32 keyboard Module\STM32 keyboard Module.kicad_sch</source>
+    <date>1/30/2024 8:51:17 PM</date>
+    <tool>Eeschema 7.0.9</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev>0.1</rev>
+        <date>2024-01-25</date>
+        <source>STM32 keyboard Module.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://ro.mouser.com/datasheet/2/585/MLCC_Automotive-1837966.pdf</datasheet>
+      <fields>
+        <field name="Distribuitor Link">https://ro.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10B103KB85PND?qs=349EhDEZ59rulWuZjtsisw%3D%3D</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part No">CL10B103KB85PND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Distribuitor Link" value="https://ro.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10B103KB85PND?qs=349EhDEZ59rulWuZjtsisw%3D%3D"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer Part No" value="CL10B103KB85PND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 keyboard Module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d74571c-bae6-4906-9a31-2175db9c0039</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://ro.mouser.com/datasheet/2/585/MLCC-1837944.pdf</datasheet>
+      <fields>
+        <field name="Distribuitor Link">https://ro.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10B105KQ8NNNC?qs=X6jEic%2FHinBnu8L%252B%252B6FfHA%3D%3D</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part No">CL10B105KQ8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Distribuitor Link" value="https://ro.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10B105KQ8NNNC?qs=X6jEic%2FHinBnu8L%252B%252B6FfHA%3D%3D"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer Part No" value="CL10B105KQ8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 keyboard Module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a68cd95f-ef0d-4803-99e5-509b75954964</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://ro.mouser.com/datasheet/2/585/MLCC-1837944.pdf</datasheet>
+      <fields>
+        <field name="Distribuitor Link">https://ro.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10A106MQ8NNNC?qs=349EhDEZ59qlB6a%2FjjeGAg%3D%3D</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part No">CL10A106MQ8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Distribuitor Link" value="https://ro.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10A106MQ8NNNC?qs=349EhDEZ59qlB6a%2FjjeGAg%3D%3D"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer Part No" value="CL10A106MQ8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 keyboard Module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a631ec50-3238-4c58-95f5-5069fb396314</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://ro.mouser.com/datasheet/2/40/cx5r_KGM-3223198.pdf</datasheet>
+      <fields>
+        <field name="Distribuitor Link">https://ro.mouser.com/ProductDetail/KYOCERA-AVX/0402ZD104KAT2A?qs=q%252BYstVZXB1lklOyLRDN9Ng%3D%3D</field>
+        <field name="Manufacturer">KYOCERA AVX</field>
+        <field name="Manufacturer Part No">0402ZD104KAT2A</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Distribuitor Link" value="https://ro.mouser.com/ProductDetail/KYOCERA-AVX/0402ZD104KAT2A?qs=q%252BYstVZXB1lklOyLRDN9Ng%3D%3D"/>
+      <property name="Manufacturer" value="KYOCERA AVX"/>
+      <property name="Manufacturer Part No" value="0402ZD104KAT2A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 keyboard Module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3945b0eb-a304-4314-b5e6-75e9eb93ca38</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://ro.mouser.com/datasheet/2/40/cx5r_KGM-3223198.pdf</datasheet>
+      <fields>
+        <field name="Distribuitor Link">https://ro.mouser.com/ProductDetail/KYOCERA-AVX/0402ZD104KAT2A?qs=q%252BYstVZXB1lklOyLRDN9Ng%3D%3D</field>
+        <field name="Manufacturer">KYOCERA AVX</field>
+        <field name="Manufacturer Part No">0402ZD104KAT2A</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Distribuitor Link" value="https://ro.mouser.com/ProductDetail/KYOCERA-AVX/0402ZD104KAT2A?qs=q%252BYstVZXB1lklOyLRDN9Ng%3D%3D"/>
+      <property name="Manufacturer" value="KYOCERA AVX"/>
+      <property name="Manufacturer Part No" value="0402ZD104KAT2A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 keyboard Module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a437ed4-8b78-4d81-922e-0dc144c58499</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://ro.mouser.com/datasheet/2/40/cx5r_KGM-3223198.pdf</datasheet>
+      <fields>
+        <field name="Distribuitor Link">https://ro.mouser.com/ProductDetail/KYOCERA-AVX/0402ZD104KAT2A?qs=q%252BYstVZXB1lklOyLRDN9Ng%3D%3D</field>
+        <field name="Manufacturer">KYOCERA AVX</field>
+        <field name="Manufacturer Part No">0402ZD104KAT2A</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Distribuitor Link" value="https://ro.mouser.com/ProductDetail/KYOCERA-AVX/0402ZD104KAT2A?qs=q%252BYstVZXB1lklOyLRDN9Ng%3D%3D"/>
+      <property name="Manufacturer" value="KYOCERA AVX"/>
+      <property name="Manufacturer Part No" value="0402ZD104KAT2A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 keyboard Module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>587ef8a6-c620-4678-a21a-f09a40bedadc</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://ro.mouser.com/datasheet/2/40/cx5r_KGM-3223198.pdf</datasheet>
+      <fields>
+        <field name="Distribuitor Link">https://ro.mouser.com/ProductDetail/KYOCERA-AVX/0402ZD104KAT2A?qs=q%252BYstVZXB1lklOyLRDN9Ng%3D%3D</field>
+        <field name="Manufacturer">KYOCERA AVX</field>
+        <field name="Manufacturer Part No">0402ZD104KAT2A</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Distribuitor Link" value="https://ro.mouser.com/ProductDetail/KYOCERA-AVX/0402ZD104KAT2A?qs=q%252BYstVZXB1lklOyLRDN9Ng%3D%3D"/>
+      <property name="Manufacturer" value="KYOCERA AVX"/>
+      <property name="Manufacturer Part No" value="0402ZD104KAT2A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 keyboard Module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7e7ac696-6d63-43d0-b83c-6398362a7c4d</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://ro.mouser.com/datasheet/2/40/cx5r_KGM-3223198.pdf</datasheet>
+      <fields>
+        <field name="Distribuitor Link">https://ro.mouser.com/ProductDetail/KYOCERA-AVX/0402ZD104KAT2A?qs=q%252BYstVZXB1lklOyLRDN9Ng%3D%3D</field>
+        <field name="Manufacturer">KYOCERA AVX</field>
+        <field name="Manufacturer Part No">0402ZD104KAT2A</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Distribuitor Link" value="https://ro.mouser.com/ProductDetail/KYOCERA-AVX/0402ZD104KAT2A?qs=q%252BYstVZXB1lklOyLRDN9Ng%3D%3D"/>
+      <property name="Manufacturer" value="KYOCERA AVX"/>
+      <property name="Manufacturer Part No" value="0402ZD104KAT2A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 keyboard Module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c001db6d-a1ed-471a-bb02-9b02e4d916f7</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://ro.mouser.com/datasheet/2/40/cx5r_KGM-3223198.pdf</datasheet>
+      <fields>
+        <field name="Distribuitor Link">https://ro.mouser.com/ProductDetail/KYOCERA-AVX/0402ZD104KAT2A?qs=q%252BYstVZXB1lklOyLRDN9Ng%3D%3D</field>
+        <field name="Manufacturer">KYOCERA AVX</field>
+        <field name="Manufacturer Part No">0402ZD104KAT2A</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Distribuitor Link" value="https://ro.mouser.com/ProductDetail/KYOCERA-AVX/0402ZD104KAT2A?qs=q%252BYstVZXB1lklOyLRDN9Ng%3D%3D"/>
+      <property name="Manufacturer" value="KYOCERA AVX"/>
+      <property name="Manufacturer Part No" value="0402ZD104KAT2A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 keyboard Module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f6a0593-a11f-4882-b827-20683d047516</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://ro.mouser.com/datasheet/2/40/cx5r_KGM-3223198.pdf</datasheet>
+      <fields>
+        <field name="Distribuitor Link">https://ro.mouser.com/ProductDetail/KYOCERA-AVX/0402ZD104KAT2A?qs=q%252BYstVZXB1lklOyLRDN9Ng%3D%3D</field>
+        <field name="Manufacturer">KYOCERA AVX</field>
+        <field name="Manufacturer Part No">0402ZD104KAT2A</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Distribuitor Link" value="https://ro.mouser.com/ProductDetail/KYOCERA-AVX/0402ZD104KAT2A?qs=q%252BYstVZXB1lklOyLRDN9Ng%3D%3D"/>
+      <property name="Manufacturer" value="KYOCERA AVX"/>
+      <property name="Manufacturer Part No" value="0402ZD104KAT2A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 keyboard Module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2a90d223-4df7-45fa-981e-848d8ba5e18e</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://ro.mouser.com/datasheet/2/40/cx5r_KGM-3223198.pdf</datasheet>
+      <fields>
+        <field name="Distribuitor Link">https://ro.mouser.com/ProductDetail/KYOCERA-AVX/0402ZD104KAT2A?qs=q%252BYstVZXB1lklOyLRDN9Ng%3D%3D</field>
+        <field name="Manufacturer">KYOCERA AVX</field>
+        <field name="Manufacturer Part No">0402ZD104KAT2A</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Distribuitor Link" value="https://ro.mouser.com/ProductDetail/KYOCERA-AVX/0402ZD104KAT2A?qs=q%252BYstVZXB1lklOyLRDN9Ng%3D%3D"/>
+      <property name="Manufacturer" value="KYOCERA AVX"/>
+      <property name="Manufacturer Part No" value="0402ZD104KAT2A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 keyboard Module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>313f27b6-96b5-45b3-a9f7-8823139009f0</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://ro.mouser.com/datasheet/2/585/MLCC-1837944.pdf</datasheet>
+      <fields>
+        <field name="Distribuitor Link">https://ro.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10A106MQ8NNNC?qs=349EhDEZ59qlB6a%2FjjeGAg%3D%3D</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part No">CL10A106MQ8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Distribuitor Link" value="https://ro.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10A106MQ8NNNC?qs=349EhDEZ59qlB6a%2FjjeGAg%3D%3D"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer Part No" value="CL10A106MQ8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 keyboard Module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f0f8557-ec04-4a7a-ac10-016d3365e7c6</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://ro.mouser.com/datasheet/2/40/cx5r_KGM-3223198.pdf</datasheet>
+      <fields>
+        <field name="Distribuitor Link">https://ro.mouser.com/ProductDetail/KYOCERA-AVX/0402ZD104KAT2A?qs=q%252BYstVZXB1lklOyLRDN9Ng%3D%3D</field>
+        <field name="Manufacturer">KYOCERA AVX</field>
+        <field name="Manufacturer Part No">0402ZD104KAT2A</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Distribuitor Link" value="https://ro.mouser.com/ProductDetail/KYOCERA-AVX/0402ZD104KAT2A?qs=q%252BYstVZXB1lklOyLRDN9Ng%3D%3D"/>
+      <property name="Manufacturer" value="KYOCERA AVX"/>
+      <property name="Manufacturer Part No" value="0402ZD104KAT2A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 keyboard Module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a57f5c8b-fefe-4b01-abba-df71e81a214e</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://ro.mouser.com/datasheet/2/40/cx5r_KGM-3223198.pdf</datasheet>
+      <fields>
+        <field name="Distribuitor Link">https://ro.mouser.com/ProductDetail/KYOCERA-AVX/0402ZD104KAT2A?qs=q%252BYstVZXB1lklOyLRDN9Ng%3D%3D</field>
+        <field name="Manufacturer">KYOCERA AVX</field>
+        <field name="Manufacturer Part No">0402ZD104KAT2A</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Distribuitor Link" value="https://ro.mouser.com/ProductDetail/KYOCERA-AVX/0402ZD104KAT2A?qs=q%252BYstVZXB1lklOyLRDN9Ng%3D%3D"/>
+      <property name="Manufacturer" value="KYOCERA AVX"/>
+      <property name="Manufacturer Part No" value="0402ZD104KAT2A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 keyboard Module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f4166035-51e5-49f5-96ee-9ab62f9b8eab</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://ro.mouser.com/datasheet/2/585/MLCC-1837944.pdf</datasheet>
+      <fields>
+        <field name="Distribuitor Link">https://ro.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10B105KQ8NNNC?qs=X6jEic%2FHinBnu8L%252B%252B6FfHA%3D%3D</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part No">CL10B105KQ8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Distribuitor Link" value="https://ro.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10B105KQ8NNNC?qs=X6jEic%2FHinBnu8L%252B%252B6FfHA%3D%3D"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer Part No" value="CL10B105KQ8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 keyboard Module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7bb2bddb-e5e2-4f04-b463-5889039f2c00</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://ro.mouser.com/datasheet/2/40/cx5r_KGM-3223198.pdf</datasheet>
+      <fields>
+        <field name="Distribuitor Link">https://ro.mouser.com/ProductDetail/KYOCERA-AVX/0402ZD104KAT2A?qs=q%252BYstVZXB1lklOyLRDN9Ng%3D%3D</field>
+        <field name="Manufacturer">KYOCERA AVX</field>
+        <field name="Manufacturer Part No">0402ZD104KAT2A</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Distribuitor Link" value="https://ro.mouser.com/ProductDetail/KYOCERA-AVX/0402ZD104KAT2A?qs=q%252BYstVZXB1lklOyLRDN9Ng%3D%3D"/>
+      <property name="Manufacturer" value="KYOCERA AVX"/>
+      <property name="Manufacturer Part No" value="0402ZD104KAT2A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 keyboard Module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>89b11f2a-da82-4976-bb93-77216f720f06</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://ro.mouser.com/datasheet/2/585/MLCC-1837944.pdf</datasheet>
+      <fields>
+        <field name="Distribuitor Link">https://ro.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10B105KQ8NNNC?qs=X6jEic%2FHinBnu8L%252B%252B6FfHA%3D%3D</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part No">CL10B105KQ8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Distribuitor Link" value="https://ro.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10B105KQ8NNNC?qs=X6jEic%2FHinBnu8L%252B%252B6FfHA%3D%3D"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer Part No" value="CL10B105KQ8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 keyboard Module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a15cc821-e354-4bee-bc51-b235898af981</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://ro.mouser.com/datasheet/2/40/cx5r_KGM-3223198.pdf</datasheet>
+      <fields>
+        <field name="Distribuitor Link">https://ro.mouser.com/ProductDetail/KYOCERA-AVX/0402ZD104KAT2A?qs=q%252BYstVZXB1lklOyLRDN9Ng%3D%3D</field>
+        <field name="Manufacturer">KYOCERA AVX</field>
+        <field name="Manufacturer Part No">0402ZD104KAT2A</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Distribuitor Link" value="https://ro.mouser.com/ProductDetail/KYOCERA-AVX/0402ZD104KAT2A?qs=q%252BYstVZXB1lklOyLRDN9Ng%3D%3D"/>
+      <property name="Manufacturer" value="KYOCERA AVX"/>
+      <property name="Manufacturer Part No" value="0402ZD104KAT2A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 keyboard Module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>53c2065f-297f-4660-9ea0-96ed67ea61dc</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>16pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://ro.mouser.com/datasheet/2/281/1/GCM1555C1H160FA16_01A-3141339.pdf</datasheet>
+      <fields>
+        <field name="Distribuitor Link">https://ro.mouser.com/ProductDetail/Murata-Electronics/GCM1555C1H160FA16D?qs=QzBtWTOodeXJ5Sja6%2FjLUg%3D%3D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part No">GCM1555C1H160FA16D</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Distribuitor Link" value="https://ro.mouser.com/ProductDetail/Murata-Electronics/GCM1555C1H160FA16D?qs=QzBtWTOodeXJ5Sja6%2FjLUg%3D%3D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Manufacturer Part No" value="GCM1555C1H160FA16D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 keyboard Module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>509672e6-6e57-45cc-b50c-92181bddbfa9</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>16pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://ro.mouser.com/datasheet/2/281/1/GCM1555C1H160FA16_01A-3141339.pdf</datasheet>
+      <fields>
+        <field name="Distribuitor Link">https://ro.mouser.com/ProductDetail/Murata-Electronics/GCM1555C1H160FA16D?qs=QzBtWTOodeXJ5Sja6%2FjLUg%3D%3D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part No">GCM1555C1H160FA16D</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Distribuitor Link" value="https://ro.mouser.com/ProductDetail/Murata-Electronics/GCM1555C1H160FA16D?qs=QzBtWTOodeXJ5Sja6%2FjLUg%3D%3D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Manufacturer Part No" value="GCM1555C1H160FA16D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 keyboard Module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>372a4bd0-0b2f-4358-8bb9-8c7e33ff258b</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>19pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://ro.mouser.com/datasheet/2/281/1/GJM1555C1H190FB01_01A-3149478.pdf</datasheet>
+      <fields>
+        <field name="Distribuitor Link">https://ro.mouser.com/ProductDetail/Murata-Electronics/GJM1555C1H190FB01D?qs=ui%252B2d9lVEI5spSt4MND2Qw%3D%3D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part No">GJM1555C1H190FB01D</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Distribuitor Link" value="https://ro.mouser.com/ProductDetail/Murata-Electronics/GJM1555C1H190FB01D?qs=ui%252B2d9lVEI5spSt4MND2Qw%3D%3D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Manufacturer Part No" value="GJM1555C1H190FB01D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 keyboard Module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e337c0df-9026-4de6-9bc5-f5079f75f0ab</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>19pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://ro.mouser.com/datasheet/2/281/1/GJM1555C1H190FB01_01A-3149478.pdf</datasheet>
+      <fields>
+        <field name="Distribuitor Link">https://ro.mouser.com/ProductDetail/Murata-Electronics/GJM1555C1H190FB01D?qs=ui%252B2d9lVEI5spSt4MND2Qw%3D%3D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part No">GJM1555C1H190FB01D</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Distribuitor Link" value="https://ro.mouser.com/ProductDetail/Murata-Electronics/GJM1555C1H190FB01D?qs=ui%252B2d9lVEI5spSt4MND2Qw%3D%3D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Manufacturer Part No" value="GJM1555C1H190FB01D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 keyboard Module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7c4094c-aa1d-422f-85e0-a739ab881f1f</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://ro.mouser.com/datasheet/2/585/MLCC-1837944.pdf</datasheet>
+      <fields>
+        <field name="Distribuitor Link">https://ro.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10A475KO8NNNC?qs=X6jEic%2FHinAbIjmLnFfqqQ%3D%3D</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Part No">CL10A475KO8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Distribuitor Link" value="https://ro.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10A475KO8NNNC?qs=X6jEic%2FHinAbIjmLnFfqqQ%3D%3D"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Manufacturer Part No" value="CL10A475KO8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 keyboard Module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0d590b30-7fa0-4123-bf0e-711647c7d9da</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <datasheet>https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p12vtt86(r)-e.pdf</datasheet>
+      <fields>
+        <field name="Distribuitor Link">https://ro.mouser.com/ProductDetail/ROHM-Semiconductor/SML-P12VTT86R?qs=Ei%2Fnxee9QYiWICzDN36s0Q%3D%3D</field>
+        <field name="Manufacturer">ROHM Semiconductor</field>
+        <field name="Manufacturer Part No">SML-P12VTT86R</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Distribuitor Link" value="https://ro.mouser.com/ProductDetail/ROHM-Semiconductor/SML-P12VTT86R?qs=Ei%2Fnxee9QYiWICzDN36s0Q%3D%3D"/>
+      <property name="Manufacturer" value="ROHM Semiconductor"/>
+      <property name="Manufacturer Part No" value="SML-P12VTT86R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 keyboard Module.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db038b36-2e5c-41e9-9554-1ed53e061a0d</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>USBLC6-4SC6</value>
+      <footprint>WolffyxLibrary:SOT23-6L_STM</footprint>
+      <datasheet>https://ro.mouser.com/datasheet/2/389/usblc6_4-1852747.pdf</datasheet>
+      <fields>
+        <field name="Distribuitor Link">https://ro.mouser.com/ProductDetail/STMicroelectronics/USBLC6-4SC6?qs=k9dH%2Fx4GHJCNdehb8zInZg%3D%3D</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Manufacturer Part No">USBLC6-4SC6</field>
+      </fields>
+      <libsource lib="PCM_Diode_TVS_AKL" part="USBLC6-4SC6" description="SOT-23-6 TVS Diode Array, 4 protected lines, 5.25V, Alternate KiCAD Library"/>
+      <property name="Distribuitor Link" value="https://ro.mouser.com/ProductDetail/STMicroelectronics/USBLC6-4SC6?qs=k9dH%2Fx4GHJCNdehb8zInZg%3D%3D"/>
+      <property name="Manufacturer" value="STMicroelectronics"/>
+      <property name="Manufacturer Part No" value="USBLC6-4SC6"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 keyboard Module.kicad_sch"/>
+      <property name="ki_description" value="SOT-23-6 TVS Diode Array, 4 protected lines, 5.25V, Alternate KiCAD Library"/>
+      <property name="ki_keywords" value="diode TVS array USBLC6-4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>04545b0f-d8f3-46e7-83ec-524c1407f265</tstamps>
+    </comp>
+    <comp ref="FID1">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_0.5mm_Mask1.5mm</footprint>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Distribuitor Link" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part No" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 keyboard Module.kicad_sch"/>
+      <property name="ki_description" value="Fiducial Marker"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>541cd327-3716-46ca-93bf-64e1ef7635e0</tstamps>
+    </comp>
+    <comp ref="FID2">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_0.5mm_Mask1.5mm</footprint>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Distribuitor Link" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part No" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 keyboard Module.kicad_sch"/>
+      <property name="ki_description" value="Fiducial Marker"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7631af6-e99b-46b0-a20e-1391858ef798</tstamps>
+    </comp>
+    <comp ref="FID3">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_0.5mm_Mask1.5mm</footprint>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Distribuitor Link" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Manufacturer Part No" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 keyboard Module.kicad_sch"/>
+      <property name="ki_description" value="Fiducial Marker"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc7fcc42-ccb3-4c76-bf68-e9a1a483439b</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>PINHD_1x1</value>
+      <footprint>WolffyxLibrary:Castellated_PinHeader_1x1_P1.27mm</footprint>
+      <libsource lib="Wolffyx_symbols" part="Castellated_PinHeader_1x1" description="Castellated Pin Header. Pin Count - 1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 keyboard Module.kicad_sch"/>
+      <property name="ki_description" value="Castellated Pin Header. Pin Count - 1"/>
+      <property name="ki_keywords" value="Pin Header"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b01722fe-88e7-4390-b029-2390168e4cfa</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>PINHD_1x1</value>
+      <footprint>WolffyxLibrary:Castellated_PinHeader_1x1_P1.27mm</footprint>
+      <libsource lib="Wolffyx_symbols" part="Castellated_PinHeader_1x1" description="Castellated Pin Header. Pin Count - 1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 keyboard Module.kicad_sch"/>
+      <property name="ki_description" value="Castellated Pin Header. Pin Count - 1"/>
+      <property name="ki_keywords" value="Pin Header"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f760f7f2-f483-40e4-a514-c9bb5f47a97e</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>PINHD_1x1</value>
+      <footprint>WolffyxLibrary:Castellated_PinHeader_1x1_P1.27mm</footprint>
+      <libsource lib="Wolffyx_symbols" part="Castellated_PinHeader_1x1" description="Castellated Pin Header. Pin Count - 1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 keyboard Module.kicad_sch"/>
+      <property name="ki_description" value="Castellated Pin Header. Pin Count - 1"/>
+      <property name="ki_keywords" value="Pin Header"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5335e596-30fc-4660-85b2-669fe706ed7b</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>PINHD_1x1</value>
+      <footprint>WolffyxLibrary:Castellated_PinHeader_1x1_P1.27mm</footprint>
+      <libsource lib="Wolffyx_symbols" part="Castellated_PinHeader_1x1" description="Castellated Pin Header. Pin Count - 1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 keyboard Module.kicad_sch"/>
+      <property name="ki_description" value="Castellated Pin Header. Pin Count - 1"/>
+      <property name="ki_keywords" value="Pin Header"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>07c76842-c247-40f6-9030-fc09738a47ca</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>PINHD_1x1</value>
+      <footprint>WolffyxLibrary:Castellated_PinHeader_1x1_P1.27mm</footprint>
+      <libsource lib="Wolffyx_symbols" part="Castellated_PinHeader_1x1" description="Castellated Pin Header. Pin Count - 1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 keyboard Module.kicad_sch"/>
+      <property name="ki_description" value="Castellated Pin Header. Pin Count - 1"/>
+      <property name="ki_keywords" value="Pin Header"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19b94591-b62f-45a3-9f55-49baf00cb351</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>PINHD_1x1</value>
+      <footprint>WolffyxLibrary:Castellated_PinHeader_1x1_P1.27mm</footprint>
+      <libsource lib="Wolffyx_symbols" part="Castellated_PinHeader_1x1" description="Castellated Pin Header. Pin Count - 1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 keyboard Module.kicad_sch"/>
+      <property name="ki_description" value="Castellated Pin Header. Pin Count - 1"/>
+      <property name="ki_keywords" value="Pin Header"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1fed5b4f-05f8-4552-9ce1-e9438e9f5781</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>220R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://ro.mouser.com/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf</datasheet>
+      <fields>
+        <field name="Distribuitor Link">https://ro.mouser.com/ProductDetail/YAGEO/RC0402FR-13220RL?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xxgniXa1xomk%3D</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer Part No">RC0402FR-13220RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Distribuitor Link" value="https://ro.mouser.com/ProductDetail/YAGEO/RC0402FR-13220RL?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xxgniXa1xomk%3D"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Manufacturer Part No" value="RC0402FR-13220RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 keyboard Module.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d5c8e24-1355-48d5-9209-ecb64d838f65</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.koaspeer.com/pdfs/RK73B.pdf</datasheet>
+      <fields>
+        <field name="Distribuitor Link">https://ro.mouser.com/ProductDetail/KOA-Speer/RK73B1ETTP103J?qs=sGAEpiMZZMvdGkrng054t5lOknjIQAOX0mR%252BLM%2Fjrdo%3D</field>
+        <field name="Manufacturer">KOA Speer</field>
+        <field name="Manufacturer Part No">RK73B1ETTP103J</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Distribuitor Link" value="https://ro.mouser.com/ProductDetail/KOA-Speer/RK73B1ETTP103J?qs=sGAEpiMZZMvdGkrng054t5lOknjIQAOX0mR%252BLM%2Fjrdo%3D"/>
+      <property name="Manufacturer" value="KOA Speer"/>
+      <property name="Manufacturer Part No" value="RK73B1ETTP103J"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 keyboard Module.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>051f571a-d42a-4cdb-a6d8-32bbdd5c63ba</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1k5</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://ro.mouser.com/datasheet/2/1365/1-3044649.pdf</datasheet>
+      <fields>
+        <field name="Distribuitor Link">https://ro.mouser.com/ProductDetail/Royalohm/0402WGF1501TCE?qs=sGAEpiMZZMvdGkrng054t2cqbZCzJY7NEeKiN%2FWw%2FJTLxC1bYz1pVw%3D%3D</field>
+        <field name="Manufacturer">Royalohm</field>
+        <field name="Manufacturer Part No">0402WGF1501TCE</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Distribuitor Link" value="https://ro.mouser.com/ProductDetail/Royalohm/0402WGF1501TCE?qs=sGAEpiMZZMvdGkrng054t2cqbZCzJY7NEeKiN%2FWw%2FJTLxC1bYz1pVw%3D%3D"/>
+      <property name="Manufacturer" value="Royalohm"/>
+      <property name="Manufacturer Part No" value="0402WGF1501TCE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 keyboard Module.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1315d67c-a982-41d2-9b64-ef9b5a2917b9</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>PTS815 SJM 250 SMTR LFS</value>
+      <footprint>WolffyxLibrary:SW4_PTS815 SJM 250 SMTR LFS_CNK</footprint>
+      <datasheet>https://ro.mouser.com/datasheet/2/240/pts815-3050953.pdf</datasheet>
+      <fields>
+        <field name="Distribuitor Link">https://ro.mouser.com/ProductDetail/CK/PTS815-SJM-250-SMTR-LFS?qs=ahcBuItHZ3xKWmfV%2F2E6bA%3D%3D</field>
+        <field name="Manufacturer">C&amp;K Switches</field>
+        <field name="Manufacturer Part No">PTS815 SJM 250 SMTR LFS</field>
+      </fields>
+      <libsource lib="Wolffyx_symbols" part="PTS815_SJM_250_SMTR_LFS" description=""/>
+      <property name="Distribuitor Link" value="https://ro.mouser.com/ProductDetail/CK/PTS815-SJM-250-SMTR-LFS?qs=ahcBuItHZ3xKWmfV%2F2E6bA%3D%3D"/>
+      <property name="Manufacturer" value="C&amp;K Switches"/>
+      <property name="Manufacturer Part No" value="PTS815 SJM 250 SMTR LFS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 keyboard Module.kicad_sch"/>
+      <property name="ki_keywords" value="PTS815 SJM 250 SMTR LFS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>768e5c11-1619-4079-9e37-26aa88a80411</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>PTS815 SJM 250 SMTR LFS</value>
+      <footprint>WolffyxLibrary:SW4_PTS815 SJM 250 SMTR LFS_CNK</footprint>
+      <datasheet>https://ro.mouser.com/datasheet/2/240/pts815-3050953.pdf</datasheet>
+      <fields>
+        <field name="Distribuitor Link">https://ro.mouser.com/ProductDetail/CK/PTS815-SJM-250-SMTR-LFS?qs=ahcBuItHZ3xKWmfV%2F2E6bA%3D%3D</field>
+        <field name="Manufacturer">C&amp;K Switches</field>
+        <field name="Manufacturer Part No">PTS815 SJM 250 SMTR LFS</field>
+      </fields>
+      <libsource lib="Wolffyx_symbols" part="PTS815_SJM_250_SMTR_LFS" description=""/>
+      <property name="Distribuitor Link" value="https://ro.mouser.com/ProductDetail/CK/PTS815-SJM-250-SMTR-LFS?qs=ahcBuItHZ3xKWmfV%2F2E6bA%3D%3D"/>
+      <property name="Manufacturer" value="C&amp;K Switches"/>
+      <property name="Manufacturer Part No" value="PTS815 SJM 250 SMTR LFS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 keyboard Module.kicad_sch"/>
+      <property name="ki_keywords" value="PTS815 SJM 250 SMTR LFS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db0de110-fe6c-4ef8-ad22-b0a3d589d02f</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LD39050PU33R</value>
+      <footprint>WolffyxLibrary:SON95P300X300X100-7N</footprint>
+      <datasheet>https://ro.mouser.com/datasheet/2/389/ld39050-1849494.pdf</datasheet>
+      <fields>
+        <field name="Distribuitor Link">https://ro.mouser.com/ProductDetail/STMicroelectronics/LD39050PU33R?qs=5HwTSiuA5HCrgw9sKi%2FGcQ%3D%3D</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Manufacturer Part No">LD39050PU33R</field>
+      </fields>
+      <libsource lib="Wolffyx_symbols" part="LD39050PU33R" description=""/>
+      <property name="Distribuitor Link" value="https://ro.mouser.com/ProductDetail/STMicroelectronics/LD39050PU33R?qs=5HwTSiuA5HCrgw9sKi%2FGcQ%3D%3D"/>
+      <property name="Manufacturer" value="STMicroelectronics"/>
+      <property name="Manufacturer Part No" value="LD39050PU33R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 keyboard Module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>923e700d-24d1-4267-9bf1-e29837b388ed</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>STM32U575VGT6</value>
+      <footprint>Package_QFP:LQFP-100_14x14mm_P0.5mm</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/stm32u575vg.pdf</datasheet>
+      <fields>
+        <field name="Distribuitor Link">https://ro.mouser.com/ProductDetail/STMicroelectronics/STM32U575VGT6?qs=XAiT9M5g4x%252BZptko0%2FfOXg%3D%3D</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Manufacturer Part No">STM32U575VGT6</field>
+      </fields>
+      <libsource lib="MCU_ST_STM32U5" part="STM32U575VGTx" description="STMicroelectronics Arm Cortex-M33 MCU, 1024KB flash, 786KB RAM, 160 MHz, 1.71-3.6V, 82 GPIO, LQFP100"/>
+      <property name="Distribuitor Link" value="https://ro.mouser.com/ProductDetail/STMicroelectronics/STM32U575VGT6?qs=XAiT9M5g4x%252BZptko0%2FfOXg%3D%3D"/>
+      <property name="Manufacturer" value="STMicroelectronics"/>
+      <property name="Manufacturer Part No" value="STM32U575VGT6"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 keyboard Module.kicad_sch"/>
+      <property name="ki_description" value="STMicroelectronics Arm Cortex-M33 MCU, 1024KB flash, 786KB RAM, 160 MHz, 1.71-3.6V, 82 GPIO, LQFP100"/>
+      <property name="ki_keywords" value="Arm Cortex-M33 STM32U5 STM32U575/585"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa2c42e4-b818-4b00-abab-32d019b75afc</tstamps>
+    </comp>
+    <comp ref="X1">
+      <value>48Mhz</value>
+      <footprint>Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm</footprint>
+      <datasheet>https://ro.mouser.com/datasheet/2/137/FA_128_en-931416.pdf</datasheet>
+      <fields>
+        <field name="Distribuitor Link">https://ro.mouser.com/ProductDetail/Epson-Timing/FA-128-48.0000MF20X-K0?qs=CANAagUtPAr3PIxas1t%252BxQ%3D%3D</field>
+        <field name="Manufacturer">Epson</field>
+        <field name="Manufacturer Part No">FA-128 48.0000MF20X-K0</field>
+      </fields>
+      <libsource lib="Device" part="Crystal_GND24" description="Four pin crystal, GND on pins 2 and 4"/>
+      <property name="Distribuitor Link" value="https://ro.mouser.com/ProductDetail/Epson-Timing/FA-128-48.0000MF20X-K0?qs=CANAagUtPAr3PIxas1t%252BxQ%3D%3D"/>
+      <property name="Manufacturer" value="Epson"/>
+      <property name="Manufacturer Part No" value="FA-128 48.0000MF20X-K0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 keyboard Module.kicad_sch"/>
+      <property name="ki_description" value="Four pin crystal, GND on pins 2 and 4"/>
+      <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b703a2c-e604-4da9-afc4-7810a429fafd</tstamps>
+    </comp>
+    <comp ref="X2">
+      <value>32khz</value>
+      <footprint>Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm</footprint>
+      <datasheet>https://ro.mouser.com/datasheet/2/122/ECX-12R-1314062.pdf</datasheet>
+      <fields>
+        <field name="Distribuitor Link">https://ro.mouser.com/ProductDetail/ECS/ECS-.327-12.5-12R-TR?qs=fAHHVMwC%252BbjIsh0rr7Av6w%3D%3D</field>
+        <field name="Manufacturer">ECS</field>
+        <field name="Manufacturer Part No">ECS-.327-12.5-12R-TR</field>
+      </fields>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <property name="Distribuitor Link" value="https://ro.mouser.com/ProductDetail/ECS/ECS-.327-12.5-12R-TR?qs=fAHHVMwC%252BbjIsh0rr7Av6w%3D%3D"/>
+      <property name="Manufacturer" value="ECS"/>
+      <property name="Manufacturer Part No" value="ECS-.327-12.5-12R-TR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32 keyboard Module.kicad_sch"/>
+      <property name="ki_description" value="Two pin crystal"/>
+      <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a061a09d-1870-43b7-8a4a-79cddc3d6ec1</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_ARM_SWD_TagConnect_TC2030">
+      <description>Tag-Connect ARM Cortex SWD JTAG connector, 6 pin</description>
+      <docs>https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-CTX_1.pdf</docs>
+      <footprints>
+        <fp>*TC2030*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_ARM_SWD_TagConnect_TC2030</field>
+        <field name="Footprint">Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical</field>
+        <field name="Datasheet">https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-CTX_1.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="SWDIO" type="bidirectional"/>
+        <pin num="3" name="~{RESET}" type="open_collector"/>
+        <pin num="4" name="SWCLK" type="output"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="SWO" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_GND24">
+      <description>Four pin crystal, GND on pins 2 and 4</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_ST_STM32U5" part="STM32U575VGTx">
+      <description>STMicroelectronics Arm Cortex-M33 MCU, 1024KB flash, 786KB RAM, 160 MHz, 1.71-3.6V, 82 GPIO, LQFP100</description>
+      <docs>https://www.st.com/resource/en/datasheet/stm32u575vg.pdf</docs>
+      <footprints>
+        <fp>LQFP*14x14mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32U575VGTx</field>
+        <field name="Footprint">Package_QFP:LQFP-100_14x14mm_P0.5mm</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/stm32u575vg.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PE2" type="bidirectional"/>
+        <pin num="2" name="PE3" type="bidirectional"/>
+        <pin num="3" name="PE4" type="bidirectional"/>
+        <pin num="4" name="PE5" type="bidirectional"/>
+        <pin num="5" name="PE6" type="bidirectional"/>
+        <pin num="6" name="VBAT" type="power_in"/>
+        <pin num="7" name="PC13" type="bidirectional"/>
+        <pin num="8" name="PC14" type="bidirectional"/>
+        <pin num="9" name="PC15" type="bidirectional"/>
+        <pin num="10" name="VSS" type="power_in"/>
+        <pin num="11" name="VDD" type="power_in"/>
+        <pin num="12" name="PH0" type="bidirectional"/>
+        <pin num="13" name="PH1" type="bidirectional"/>
+        <pin num="14" name="NRST" type="input"/>
+        <pin num="15" name="PC0" type="bidirectional"/>
+        <pin num="16" name="PC1" type="bidirectional"/>
+        <pin num="17" name="PC2" type="bidirectional"/>
+        <pin num="18" name="PC3" type="bidirectional"/>
+        <pin num="19" name="VSSA" type="power_in"/>
+        <pin num="20" name="VREF-" type="input"/>
+        <pin num="21" name="VREF+" type="input"/>
+        <pin num="22" name="VDDA" type="power_in"/>
+        <pin num="23" name="PA0" type="bidirectional"/>
+        <pin num="24" name="PA1" type="bidirectional"/>
+        <pin num="25" name="PA2" type="bidirectional"/>
+        <pin num="26" name="PA3" type="bidirectional"/>
+        <pin num="27" name="VSS" type="passive"/>
+        <pin num="28" name="VDD" type="power_in"/>
+        <pin num="29" name="PA4" type="bidirectional"/>
+        <pin num="30" name="PA5" type="bidirectional"/>
+        <pin num="31" name="PA6" type="bidirectional"/>
+        <pin num="32" name="PA7" type="bidirectional"/>
+        <pin num="33" name="PC4" type="bidirectional"/>
+        <pin num="34" name="PC5" type="bidirectional"/>
+        <pin num="35" name="PB0" type="bidirectional"/>
+        <pin num="36" name="PB1" type="bidirectional"/>
+        <pin num="37" name="PB2" type="bidirectional"/>
+        <pin num="38" name="PE7" type="bidirectional"/>
+        <pin num="39" name="PE8" type="bidirectional"/>
+        <pin num="40" name="PE9" type="bidirectional"/>
+        <pin num="41" name="PE10" type="bidirectional"/>
+        <pin num="42" name="PE11" type="bidirectional"/>
+        <pin num="43" name="PE12" type="bidirectional"/>
+        <pin num="44" name="PE13" type="bidirectional"/>
+        <pin num="45" name="PE14" type="bidirectional"/>
+        <pin num="46" name="PE15" type="bidirectional"/>
+        <pin num="47" name="PB10" type="bidirectional"/>
+        <pin num="48" name="VCAP" type="power_out"/>
+        <pin num="49" name="VSS" type="passive"/>
+        <pin num="50" name="VDD" type="power_in"/>
+        <pin num="51" name="PB12" type="bidirectional"/>
+        <pin num="52" name="PB13" type="bidirectional"/>
+        <pin num="53" name="PB14" type="bidirectional"/>
+        <pin num="54" name="PB15" type="bidirectional"/>
+        <pin num="55" name="PD8" type="bidirectional"/>
+        <pin num="56" name="PD9" type="bidirectional"/>
+        <pin num="57" name="PD10" type="bidirectional"/>
+        <pin num="58" name="PD11" type="bidirectional"/>
+        <pin num="59" name="PD12" type="bidirectional"/>
+        <pin num="60" name="PD13" type="bidirectional"/>
+        <pin num="61" name="PD14" type="bidirectional"/>
+        <pin num="62" name="PD15" type="bidirectional"/>
+        <pin num="63" name="PC6" type="bidirectional"/>
+        <pin num="64" name="PC7" type="bidirectional"/>
+        <pin num="65" name="PC8" type="bidirectional"/>
+        <pin num="66" name="PC9" type="bidirectional"/>
+        <pin num="67" name="PA8" type="bidirectional"/>
+        <pin num="68" name="PA9" type="bidirectional"/>
+        <pin num="69" name="PA10" type="bidirectional"/>
+        <pin num="70" name="PA11" type="bidirectional"/>
+        <pin num="71" name="PA12" type="bidirectional"/>
+        <pin num="72" name="PA13" type="bidirectional"/>
+        <pin num="73" name="VDDUSB" type="power_in"/>
+        <pin num="74" name="VSS" type="passive"/>
+        <pin num="75" name="VDD" type="power_in"/>
+        <pin num="76" name="PA14" type="bidirectional"/>
+        <pin num="77" name="PA15" type="bidirectional"/>
+        <pin num="78" name="PC10" type="bidirectional"/>
+        <pin num="79" name="PC11" type="bidirectional"/>
+        <pin num="80" name="PC12" type="bidirectional"/>
+        <pin num="81" name="PD0" type="bidirectional"/>
+        <pin num="82" name="PD1" type="bidirectional"/>
+        <pin num="83" name="PD2" type="bidirectional"/>
+        <pin num="84" name="PD3" type="bidirectional"/>
+        <pin num="85" name="PD4" type="bidirectional"/>
+        <pin num="86" name="PD5" type="bidirectional"/>
+        <pin num="87" name="PD6" type="bidirectional"/>
+        <pin num="88" name="PD7" type="bidirectional"/>
+        <pin num="89" name="PB3" type="bidirectional"/>
+        <pin num="90" name="PB4" type="bidirectional"/>
+        <pin num="91" name="PB5" type="bidirectional"/>
+        <pin num="92" name="PB6" type="bidirectional"/>
+        <pin num="93" name="PB7" type="bidirectional"/>
+        <pin num="94" name="PH3" type="bidirectional"/>
+        <pin num="95" name="PB8" type="bidirectional"/>
+        <pin num="96" name="PB9" type="bidirectional"/>
+        <pin num="97" name="PE0" type="bidirectional"/>
+        <pin num="98" name="PE1" type="bidirectional"/>
+        <pin num="99" name="VSS" type="passive"/>
+        <pin num="100" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="Fiducial">
+      <description>Fiducial Marker</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Fiducial*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">Fiducial</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="PCM_Diode_TVS_AKL" part="USBLC6-4SC6">
+      <description>SOT-23-6 TVS Diode Array, 4 protected lines, 5.25V, Alternate KiCAD Library</description>
+      <docs>https://www.tme.eu/Document/06bbad35e7a75ace7e8a669d67830a6d/USBLC6-4.pdf</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">USBLC6-4SC6</field>
+        <field name="Footprint">Package_TO_SOT_SMD_AKL:SOT-23-6</field>
+        <field name="Datasheet">https://www.tme.eu/Document/06bbad35e7a75ace7e8a669d67830a6d/USBLC6-4.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="L1" type="passive"/>
+        <pin num="2" name="VN" type="passive"/>
+        <pin num="3" name="L2" type="passive"/>
+        <pin num="4" name="L3" type="passive"/>
+        <pin num="5" name="VP" type="passive"/>
+        <pin num="6" name="L4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Wolffyx_symbols" part="Castellated_PinHeader_1x1">
+      <description>Castellated Pin Header. Pin Count - 1</description>
+      <footprints>
+        <fp>PinHeader_1x20_P2.54mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">PINHD_1x1</field>
+        <field name="Footprint">WolffyxLibrary:PinHeader_1x1_P1.27mm_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Wolffyx_symbols" part="Castellated_PinHeader_1x19">
+      <description>Castellated Pin Header. Pin Count - 19</description>
+      <footprints>
+        <fp>PinHeader_1x20_P2.54mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">PINHD_1x19</field>
+        <field name="Footprint">WolffyxLibrary:PinHeader_1x19_P1.27mm_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+        <pin num="9" name="" type="passive"/>
+        <pin num="10" name="" type="passive"/>
+        <pin num="11" name="" type="passive"/>
+        <pin num="12" name="" type="passive"/>
+        <pin num="13" name="" type="passive"/>
+        <pin num="14" name="" type="passive"/>
+        <pin num="15" name="" type="passive"/>
+        <pin num="16" name="" type="passive"/>
+        <pin num="17" name="" type="passive"/>
+        <pin num="18" name="" type="passive"/>
+        <pin num="19" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Wolffyx_symbols" part="Castellated_PinHeader_1x20">
+      <description>Castellated Pin Header. Pin Count - 20</description>
+      <footprints>
+        <fp>PinHeader_1x20_P2.54mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Castellated_PINHD_1x20</field>
+        <field name="Footprint">WolffyxLibrary:Castellated_PinHeader_1x20_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+        <pin num="9" name="" type="passive"/>
+        <pin num="10" name="" type="passive"/>
+        <pin num="11" name="" type="passive"/>
+        <pin num="12" name="" type="passive"/>
+        <pin num="13" name="" type="passive"/>
+        <pin num="14" name="" type="passive"/>
+        <pin num="15" name="" type="passive"/>
+        <pin num="16" name="" type="passive"/>
+        <pin num="17" name="" type="passive"/>
+        <pin num="18" name="" type="passive"/>
+        <pin num="19" name="" type="passive"/>
+        <pin num="20" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Wolffyx_symbols" part="LD39050PU33R">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LD39050PU33R</field>
+        <field name="Footprint">WolffyxLibrary:SON95P300X300X100-7N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="PG" type="bidirectional"/>
+        <pin num="4" name="VOUT" type="output"/>
+        <pin num="6" name="VIN" type="power_in"/>
+        <pin num="7" name="GND__1" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Wolffyx_symbols" part="PTS815_SJM_250_SMTR_LFS">
+      <footprints>
+        <fp>SW4_PTS815</fp>
+        <fp>SJM</fp>
+        <fp>250</fp>
+        <fp>SMTR</fp>
+        <fp>LFS_CNK</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">PTS815 SJM 250 SMTR LFS</field>
+        <field name="Footprint">WolffyxLibrary:SW4_PTS815 SJM 250 SMTR LFS_CNK</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="MCU_ST_STM32U5">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/MCU_ST_STM32U5.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="PCM_Diode_TVS_AKL">
+      <uri>C:\Users\wolff\OneDrive\Documents\KiCad\7.0\3rdparty/symbols/com_github_dawidcislo_alternate-kicad-library/Diode_TVS_AKL.kicad_sym</uri>
+    </library>
+    <library logical="Wolffyx_symbols">
+      <uri>C:/Users/wolff/OneDrive/Documents/KiCad/7.0/symbols/Wolffyx_symbols.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J7" pin="1" pintype="passive"/>
+      <node ref="J8" pin="1" pintype="passive"/>
+      <node ref="J9" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="SW2" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="VOUT" pintype="output"/>
+      <node ref="U2" pin="100" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U2" pin="11" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U2" pin="21" pinfunction="VREF+" pintype="input"/>
+      <node ref="U2" pin="22" pinfunction="VDDA" pintype="power_in"/>
+      <node ref="U2" pin="28" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U2" pin="50" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U2" pin="6" pinfunction="VBAT" pintype="power_in"/>
+      <node ref="U2" pin="73" pinfunction="VDDUSB" pintype="power_in"/>
+      <node ref="U2" pin="75" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="D2" pin="5" pinfunction="VP" pintype="passive"/>
+      <node ref="J10" pin="1" pintype="passive"/>
+      <node ref="J11" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="EN" pintype="input"/>
+      <node ref="U1" pin="6" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="3" name="/BOOT0">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U2" pin="94" pinfunction="PH3" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/HSE_IN">
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="PH0" pintype="bidirectional"/>
+      <node ref="X1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="5" name="/HSE_OUT">
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="PH1" pintype="bidirectional"/>
+      <node ref="X1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="6" name="/LSE_IN">
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="PC14" pintype="bidirectional"/>
+      <node ref="X2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="7" name="/LSE_OUT">
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="PC15" pintype="bidirectional"/>
+      <node ref="X2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="8" name="/PD11">
+      <node ref="U2" pin="58" pinfunction="PD11" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/PD14">
+      <node ref="U2" pin="61" pinfunction="PD14" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/PD15">
+      <node ref="U2" pin="62" pinfunction="PD15" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/PE0">
+      <node ref="U2" pin="97" pinfunction="PE0" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/PE1">
+      <node ref="U2" pin="98" pinfunction="PE1" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/PIN_2">
+      <node ref="U2" pin="1" pinfunction="PE2" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/PIN_3">
+      <node ref="U2" pin="2" pinfunction="PE3" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/PIN_4">
+      <node ref="U2" pin="3" pinfunction="PE4" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/PIN_5">
+      <node ref="U2" pin="4" pinfunction="PE5" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/PIN_6">
+      <node ref="U2" pin="5" pinfunction="PE6" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/PIN_7">
+      <node ref="U2" pin="7" pinfunction="PC13" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/PIN_10">
+      <node ref="U2" pin="17" pinfunction="PC2" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/PIN_11">
+      <node ref="U2" pin="18" pinfunction="PC3" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/PIN_12">
+      <node ref="U2" pin="23" pinfunction="PA0" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/PIN_13">
+      <node ref="U2" pin="24" pinfunction="PA1" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/PIN_14">
+      <node ref="U2" pin="25" pinfunction="PA2" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/PIN_15">
+      <node ref="U2" pin="26" pinfunction="PA3" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="/PIN_16">
+      <node ref="U2" pin="29" pinfunction="PA4" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/PIN_17">
+      <node ref="U2" pin="30" pinfunction="PA5" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="/PIN_18">
+      <node ref="U2" pin="31" pinfunction="PA6" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/PIN_19">
+      <node ref="U2" pin="32" pinfunction="PA7" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="/PIN_20">
+      <node ref="U2" pin="33" pinfunction="PC4" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="/PIN_21">
+      <node ref="U2" pin="34" pinfunction="PC5" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="/PIN_22">
+      <node ref="U2" pin="35" pinfunction="PB0" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="/PIN_23">
+      <node ref="U2" pin="36" pinfunction="PB1" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="/PIN_24">
+      <node ref="U2" pin="37" pinfunction="PB2" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="/PIN_25">
+      <node ref="U2" pin="38" pinfunction="PE7" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="/PIN_26">
+      <node ref="U2" pin="39" pinfunction="PE8" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="/PIN_27">
+      <node ref="U2" pin="40" pinfunction="PE9" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="/PIN_28">
+      <node ref="U2" pin="41" pinfunction="PE10" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="/PIN_29">
+      <node ref="U2" pin="42" pinfunction="PE11" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="/PIN_30">
+      <node ref="U2" pin="43" pinfunction="PE12" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="/PIN_34">
+      <node ref="U2" pin="47" pinfunction="PB10" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="/PIN_35">
+      <node ref="U2" pin="51" pinfunction="PB12" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="/PIN_38">
+      <node ref="U2" pin="54" pinfunction="PB15" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="/PIN_47">
+      <node ref="U2" pin="63" pinfunction="PC6" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="/PIN_48">
+      <node ref="U2" pin="64" pinfunction="PC7" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="/PIN_49">
+      <node ref="U2" pin="65" pinfunction="PC8" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="/PIN_50">
+      <node ref="U2" pin="66" pinfunction="PC9" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="/PIN_51">
+      <node ref="U2" pin="67" pinfunction="PA8" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="/PIN_52">
+      <node ref="U2" pin="68" pinfunction="PA9" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="/PIN_53">
+      <node ref="U2" pin="69" pinfunction="PA10" pintype="bidirectional"/>
+    </net>
+    <net code="50" name="/PIN_56">
+      <node ref="U2" pin="77" pinfunction="PA15" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="/PIN_57">
+      <node ref="U2" pin="78" pinfunction="PC10" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="/PIN_58">
+      <node ref="U2" pin="79" pinfunction="PC11" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="/PIN_59">
+      <node ref="U2" pin="80" pinfunction="PC12" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="/PIN_60">
+      <node ref="U2" pin="81" pinfunction="PD0" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="/PIN_61">
+      <node ref="U2" pin="82" pinfunction="PD1" pintype="bidirectional"/>
+    </net>
+    <net code="56" name="/PIN_62">
+      <node ref="U2" pin="83" pinfunction="PD2" pintype="bidirectional"/>
+    </net>
+    <net code="57" name="/PIN_63">
+      <node ref="U2" pin="84" pinfunction="PD3" pintype="bidirectional"/>
+    </net>
+    <net code="58" name="/PIN_64">
+      <node ref="U2" pin="85" pinfunction="PD4" pintype="bidirectional"/>
+    </net>
+    <net code="59" name="/PIN_68">
+      <node ref="U2" pin="90" pinfunction="PB4" pintype="bidirectional"/>
+    </net>
+    <net code="60" name="/PWR_LED_K">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="61" name="/SWD_SWCLK">
+      <node ref="U2" pin="76" pinfunction="PA14" pintype="bidirectional"/>
+    </net>
+    <net code="62" name="/SWD_SWDIO">
+      <node ref="U2" pin="72" pinfunction="PA13" pintype="bidirectional"/>
+    </net>
+    <net code="63" name="/SWD_SWO">
+      <node ref="U2" pin="89" pinfunction="PB3" pintype="bidirectional"/>
+    </net>
+    <net code="64" name="/USB_D+">
+      <node ref="D2" pin="4" pinfunction="L3" pintype="passive"/>
+      <node ref="U2" pin="71" pinfunction="PA12" pintype="bidirectional"/>
+    </net>
+    <net code="65" name="/USB_D-">
+      <node ref="D2" pin="6" pinfunction="L4" pintype="passive"/>
+      <node ref="U2" pin="70" pinfunction="PA11" pintype="bidirectional"/>
+    </net>
+    <net code="66" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="VN" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="SW1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="7" pinfunction="GND__1" pintype="power_in"/>
+      <node ref="U2" pin="10" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U2" pin="19" pinfunction="VSSA" pintype="power_in"/>
+      <node ref="U2" pin="20" pinfunction="VREF-" pintype="input"/>
+      <node ref="U2" pin="27" pinfunction="VSS" pintype="passive"/>
+      <node ref="U2" pin="49" pinfunction="VSS" pintype="passive"/>
+      <node ref="U2" pin="74" pinfunction="VSS" pintype="passive"/>
+      <node ref="U2" pin="99" pinfunction="VSS" pintype="passive"/>
+      <node ref="X1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="X1" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="67" name="I2C_1_SCL">
+      <node ref="U2" pin="95" pinfunction="PB8" pintype="bidirectional"/>
+    </net>
+    <net code="68" name="I2C_1_SDA">
+      <node ref="U2" pin="96" pinfunction="PB9" pintype="bidirectional"/>
+    </net>
+    <net code="69" name="I2C_2_SCL">
+      <node ref="U2" pin="52" pinfunction="PB13" pintype="bidirectional"/>
+    </net>
+    <net code="70" name="I2C_2_SDA">
+      <node ref="U2" pin="53" pinfunction="PB14" pintype="bidirectional"/>
+    </net>
+    <net code="71" name="I2C_3_SCL">
+      <node ref="U2" pin="15" pinfunction="PC0" pintype="bidirectional"/>
+    </net>
+    <net code="72" name="I2C_3_SDA">
+      <node ref="U2" pin="16" pinfunction="PC1" pintype="bidirectional"/>
+    </net>
+    <net code="73" name="I2C_4_SCL">
+      <node ref="U2" pin="59" pinfunction="PD12" pintype="bidirectional"/>
+    </net>
+    <net code="74" name="I2C_4_SDA">
+      <node ref="U2" pin="60" pinfunction="PD13" pintype="bidirectional"/>
+    </net>
+    <net code="75" name="NRST">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="NRST" pintype="input"/>
+    </net>
+    <net code="76" name="Net-(D2-L1)">
+      <node ref="D2" pin="1" pinfunction="L1" pintype="passive"/>
+    </net>
+    <net code="77" name="Net-(D2-L2)">
+      <node ref="D2" pin="3" pinfunction="L2" pintype="passive"/>
+      <node ref="J2" pin="1" pintype="passive"/>
+    </net>
+    <net code="78" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="79" name="Net-(U2-VCAP)">
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="U2" pin="48" pinfunction="VCAP" pintype="power_out"/>
+    </net>
+    <net code="80" name="SPI1_MISO">
+      <node ref="U2" pin="45" pinfunction="PE14" pintype="bidirectional"/>
+    </net>
+    <net code="81" name="SPI1_MOSI">
+      <node ref="U2" pin="46" pinfunction="PE15" pintype="bidirectional"/>
+    </net>
+    <net code="82" name="SPI1_SCK">
+      <node ref="U2" pin="44" pinfunction="PE13" pintype="bidirectional"/>
+    </net>
+    <net code="83" name="USART 1 CK">
+      <node ref="U2" pin="93" pinfunction="PB7" pintype="bidirectional"/>
+    </net>
+    <net code="84" name="USART 1 RX">
+      <node ref="U2" pin="92" pinfunction="PB6" pintype="bidirectional"/>
+    </net>
+    <net code="85" name="USART 1 TX">
+      <node ref="U2" pin="91" pinfunction="PB5" pintype="bidirectional"/>
+    </net>
+    <net code="86" name="USART 2 CK">
+      <node ref="U2" pin="88" pinfunction="PD7" pintype="bidirectional"/>
+    </net>
+    <net code="87" name="USART 2 RX">
+      <node ref="U2" pin="87" pinfunction="PD6" pintype="bidirectional"/>
+    </net>
+    <net code="88" name="USART 2 TX">
+      <node ref="U2" pin="86" pinfunction="PD5" pintype="bidirectional"/>
+    </net>
+    <net code="89" name="USART 3 CK">
+      <node ref="U2" pin="57" pinfunction="PD10" pintype="bidirectional"/>
+    </net>
+    <net code="90" name="USART 3 RX">
+      <node ref="U2" pin="56" pinfunction="PD9" pintype="bidirectional"/>
+    </net>
+    <net code="91" name="USART 3 TX">
+      <node ref="U2" pin="55" pinfunction="PD8" pintype="bidirectional"/>
+    </net>
+    <net code="92" name="unconnected-(U1-PG-Pad3)">
+      <node ref="U1" pin="3" pinfunction="PG" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>
